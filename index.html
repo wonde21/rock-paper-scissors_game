@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rock_paper_scissor</title>
-    <script src="index.js" defer></script>
     <style>
+        .result{
+            position: absolute;
+            top:20%;
+            left:50%;
+            transform: translate(-50%);
+        }
         fieldset{
             width:600px;
             max-width: 90%;
@@ -21,16 +26,17 @@
     <form>
     <Fieldset>
         <legend>choose</legend>
-        <input list ="text" id="list_option">
-        <select list="text" id="sel">
+        <select list="text" id="player">
             <option>Rock</option>
             <option>Paper</option>
-            <option>Scissor</option>
-            <div class="result">
-                <h2></h2>
-            </div>
+            <option>Scissors</option>
+           
             <input type="submit" value="Draw">
     </Fieldset>
 </form>
+<div class="result">
+    <h2>hello</h2>
+</div>
+<script src="index.js" ></script>
 </body>
 </html>
