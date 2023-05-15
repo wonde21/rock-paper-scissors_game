@@ -1,14 +1,3 @@
-// const userChoice = document.querySelector("#player").value;
-class Data{
-    constructor(item){
-        this.item = item;
-    }
-    index = function(n){
-        const posibility =["rock", "scissors","paper"];
-        return posibility.indexOf(`${n}`)
-       }
-    
-}
 const btn = document.querySelector("button");
 
 const msg = document.querySelector(".result h2");
