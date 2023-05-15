@@ -6,34 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rock_paper_scissor</title>
     <style>
-        .result{
-            position: absolute;
-            top:20%;
-            left:50%;
-            transform: translate(-50%);
-        }
-        fieldset{
-            width:600px;
-            max-width: 90%;
-            position:absolute;
-            top:50%;
-            left:50%;
-            transform:translate(-50%, -50%);
-        }
+       button{
+        border:none;
+       }
     </style>
 </head>
 <body>
-    <form>
-    <Fieldset>
-        <legend>choose</legend>
-        <select list="text" id="player">
-            <option>Rock</option>
-            <option>Paper</option>
-            <option>Scissors</option>
-           
-            <input type="submit" value="Draw">
-    </Fieldset>
-</form>
+<label for="lucky">Enter your lacky</label>
+  <input type="text" name="lucky" id="lucky" value="Rock">
+  <button>Draw</button>
 <div class="result">
     <h2>hello</h2>
 </div>
